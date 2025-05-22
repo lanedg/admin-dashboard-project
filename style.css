@@ -61,3 +61,25 @@
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   color: white;
 }
+
+.header-bottom-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.greeting {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  gap: 10px;
+}
+
+.greeting-profile-picture {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  border-radius: 70px;
+}
+
+.greeting-message {
+  color: white;
+}
