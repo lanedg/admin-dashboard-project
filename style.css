@@ -78,7 +78,8 @@ body {
 .greeting {
   display: grid;
   grid-template-columns: 1fr 2fr;
-  gap: 10px;
+  gap: 25px;
+  align-items: center;
 }
 
 .greeting-profile-picture {
