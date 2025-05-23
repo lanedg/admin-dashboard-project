@@ -124,6 +124,13 @@ body {
   align-content: center;
 }
 
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  gap: 8%;
+  align-items: center;
+}
+
 .sidebar-items-upper > div {
   display: flex;
   gap: 20px;
