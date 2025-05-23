@@ -118,6 +118,7 @@ body {
   font-weight: bold;
   color: white;
   border: none;
+  margin-left: 20px;
   background-color: var(--sidebar-color);
 }
 
