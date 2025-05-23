@@ -123,3 +123,13 @@ body {
 .buttons {
   align-content: center;
 }
+
+.sidebar-items-upper > div {
+  display: flex;
+  gap: 20px;
+}
+
+.sidebar-items-lower > div {
+  display: flex;
+  gap: 20px;
+}
