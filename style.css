@@ -1,5 +1,6 @@
 :root {
   --sidebar-color: rgb(14, 43, 114);
+  --subtext-color: rgb(83, 83, 83);
 }
 
 body {
@@ -183,4 +184,15 @@ body {
   border-radius: 5%;
   border-left: 10px solid var(--sidebar-color);
   box-sizing: border-box;
+}
+
+.card-header {
+  font-weight: bold;
+  margin: 8px 0px 4px 0px;
+}
+
+.card-text {
+  font-size: 0.8rem;
+  margin: 8px 0px 4px 0px;
+  color: var(--subtext-color);
 }
